@@ -55,12 +55,12 @@ function HomeScreen({ navigation }) {
 
 
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center',width: '100%' }}>
       {/* <Button
         onPress={() => navigation.navigate('AboutUS')}
         title="Go to AboutUS"
       /> */}
-       <View style={{ flex: 1, padding: 4 }}>
+       <View style={{ flex: 1, padding: 4,width: '100%' }}>
        <View style={styles.container}>
     <ImageBackground source={logo} style={styles.image}>      
       
@@ -87,10 +87,11 @@ function HomeScreen({ navigation }) {
             flex: 1,
             alignItems: 'center',
             justifyContent: 'center',
+            width: '100%'
           }}>
           <Text
             style={{
-              fontSize: 10,
+              fontSize: 12,
               textAlign: 'left',
               marginBottom: 5,
             }}>
@@ -98,7 +99,7 @@ function HomeScreen({ navigation }) {
           </Text>
           <Text
             style={{
-              fontSize: 10,
+              fontSize: 12,
               textAlign: 'left',
               marginBottom: 5,
             }}>
@@ -121,7 +122,7 @@ function AboutUSScreen({ navigation }) {
     <View style={{ flex: 1, padding: 16, alignItems: 'center', justifyContent: 'center' }}>        
         <Text
             style={{
-              fontSize: 25,
+              fontSize: 12,
               textAlign: 'left',
               marginBottom: 5,
             }}>
