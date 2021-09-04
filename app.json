@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "RadioActive904FM",
-    "slug": "RadioActive904FM",
-    "version": "1.3.2",
+    "name": "RadioActiveBhagalpur",
+    "slug": "RadioActiveBhagalpur",
+    "version": "1.3.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,14 +18,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.multidymension.radioactive904FMs"
+      "bundleIdentifier": "RadioActive.Bhagalpur"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.multidymension.radioactive904FMs"
+      "package": "RadioActive.Bhagalpur"
     },
     "web": {
       "favicon": "./assets/favicon.png"

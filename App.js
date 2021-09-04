@@ -13,12 +13,14 @@ import {SocialIcon} from 'react-native-elements';
 import * as WebBrowser from 'expo-web-browser';
 import {HomeScreen} from './components/Home.js'
 import {AboutUSScreen} from './components/About.js'
+import { useKeepAwake } from 'expo-keep-awake';
 
 const Drawer = createDrawerNavigator();
 
 
 
 export default function App() {
+  useKeepAwake();
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
